@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How It Works</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <!-- Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+
+    <!--Navbar Starts-->
+    <nav class="bg-white border-gray-200 dark:bg-gray-700">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a id="howItWorks-link" href="index.html" class="nav-link"><img class="h-12" src="images/Qarar.jpg"
+                    alt="Logo" />
+            </a>
+            <button class="md:hidden text-gray-500 hover:text-green-700 focus:outline-none" onclick="toggleMenu()"
+                aria-label="Toggle navigation">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-2 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-500 md:dark:bg-gray-600 dark:border-gray-700">
+                    <li>
+                        <a href="index.html" class="block py-2 px-3 text-black hover:text-green-700 hover:underline"
+                            aria-current="page">Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="block py-2 px-3 text-black hover:text-green-700 hover:underline"
+                            aria-current="page">About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="howItWorks.html"
+                            class="block py-2 px-3 text-black hover:text-green-700 hover:underline"
+                            aria-current="page">How It Works
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-yellow-500 hover:text-green-700 hover:underline"
+                            aria-current="page">Investment Offers
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-black hover:text-green-700 hover:underline"
+                            aria-current="page">FAQs
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-black hover:text-green-700 hover:underline"
+                            aria-current="page">Shariaa
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-black hover:text-green-700 hover:underline"
+                            aria-current="page">Contact Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-green-700 hover:underline" aria-current="page">Sign In
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar Ends-->
+
+
+    <!--How It Works Starts-->
+    <section class="bg-white p-8">
+        <div class="max-w-screen-xl mx-auto flex flex-col items-center text-center">
+            <h2 class="text-3xl font-medium text-gray-500 mt-5">How It Works</h2>
+            <div class="h-2 bg-green-200 w-40 mx-auto rounded-md mt-2"></div>
+        </div>
+        <div
+            class="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center md:items-center justify-between mt-6">
+            <div class="w-full md:w-1/2 p-4 md:p-0 text-center md:text-left md:flex md:flex-col md:justify-center">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Step by Step</h2>
+                <p class="text-gray-500 text-lg leading-relaxed mt-4">Qarar platform directly connects creditworthy
+                    companies looking for project financing with investors looking to support their growth.
+                </p>
+                <div class="mt-6 space-y-4">
+                    <a href="#" class="block text-black font-semibold pb-1 text-lg hover:text-black">
+                        <span class="border-b-2 border-black w-max mx-auto">How to become an Investor</span>
+                    </a>
+                    <a href="#" class="block text-black font-semibold pb-1 text-lg hover:text-black">
+                        <span class="border-b-2 border-black w-max mx-auto">How to become a Borrower</span>
+                    </a>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-4 md:p-0 mt-6 md:mt-0 flex justify-center md:justify-end">
+                <img src="images/qararbg1.png" alt="Qarar Background" class="mx-auto">
+            </div>
+        </div>
+    </section>
+    <!--How It Works Ends-->
+
+
+    <!--Investing Starts-->
+    <section class="bg-white p-20">
+        <div class="max-w-screen-xl mx-auto flex flex-col items-center text-center">
+            <h2 class="text-3xl font-medium text-gray-500 mt-5">How to become Investor</h2>
+            <div class="h-2 bg-green-200 w-72 mx-auto rounded-md mt-2"></div>
+        </div>
+        <div class="max-w-screen-xl mx-auto flex flex-col items-center text-center">
+            <h1 class="font-bold text-black text-4xl my-6 text-center">
+                Invest With Us
+            </h1>
+            <!--Step 1-->
+            <div class="flex items-center gap-2 mt-10">
+                <div>
+                    <img src="images/1.png" alt="Investing First Step Image" class="w-32 h-auto">
+                </div>
+                <div class="max-w-md">
+                    <h2 class="text-lg text-black font-bold">Registration</h2>
+                    <p class="text-gray-500 text-md leading-relaxed mt-2">
+                        The investor must register on the platform by following the registration steps and filling in
+                        the
+                        required information
+                    </p>
+                </div>
+            </div>
+            <!--Arrow Div-->
+            <div class="mt-2 flex justify-center">
+                <img src="images/arrow.png" alt="First Step Arrow" class="w-2/3 transform -scale-x-100">
+            </div>
+            <!--Step 2-->
+            <div class="flex items-center gap-2 mt-10">
+                <div class="max-w-md">
+                    <h2 class="text-lg text-black font-bold">
+                        Open and fund an investment portfolio account
+                    </h2>
+                    <p class="text-gray-500 text-md leading-relaxed mt-2">
+
+                        An investment portfolio is created after activating the account on the platform by following the
+                        account activation steps. This enables the investor to easily and conveniently fund his virtual
+                        investment account.
+                    </p>
+                </div>
+                <div>
+                    <img src="images/2.png" alt="Investing First Step Image" class="w-32 h-auto">
+                </div>
+            </div>
+            <!--Arrow Div-->
+            <div class="mt-2 flex justify-center">
+                <img src="images/arrow.png" alt="First Step Arrow" class="w-2/3">
+            </div>
+            <!--Step 3-->
+            <div class="flex items-center gap-2 mt-10">
+                <div>
+                    <img src="images/3.png" alt="Investing First Step Image" class="w-32 h-auto">
+                </div>
+                <div class="max-w-md">
+                    <h2 class="text-lg text-black font-bold">Find the right project</h2>
+                    <p class="text-gray-500 text-md leading-relaxed mt-2">
+
+                        Among many opportunities and projects, search for the best
+                        and most suitable one after sufficient study in detail
+                    </p>
+                </div>
+            </div>
+            <!--Arrow Div-->
+            <div class="mt-2 flex justify-center">
+                <img src="images/arrow.png" alt="First Step Arrow" class="w-2/3">
+            </div>
+            <!--Step 4-->
+            <div class="flex items-center gap-2 mt-10">
+                <div class="max-w-md">
+                    <h2 class="text-lg text-black font-bold">Project Selection</h2>
+                    <p class="text-gray-500 text-md leading-relaxed mt-2">
+
+                        Investing in the appropriate amount estimated by the investor as a
+                        minimum of 1,000 riyals against the number of sukuk to be invested in
+                    </p>
+                </div>
+                <div>
+                    <img src="images/4.png" alt="Investing First Step Image" class="w-32 h-auto">
+                </div>
+            </div>
+            <!--Arrow Div-->
+            <div class="mt-2 flex justify-center">
+                <img src="images/arrow.png" alt="First Step Arrow" class="w-2/3">
+            </div>
+            <!--Step 5-->
+            <div class="flex items-center gap-2 mt-10">
+                <div>
+                    <img src="images/5.png" alt="Investing First Step Image" class="w-32 h-auto">
+                </div>
+                <div class="max-w-md">
+                    <h2 class="text-lg text-black font-bold">Own Murabaha Sukuk and receive returns</h2>
+                    <p class="text-gray-500 text-md leading-relaxed mt-2">
+
+                        Shareholders own Murabaha Sukuk and the returns are distributed and the Sukuk are redeemed on
+                        the date agreed upon in the issuance prospectus.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Investing Ends-->
+
+
+    <!--Registration Starts-->
+    <section class="bg-white p-20">
+        <div class="max-w-screen-xl mx-auto flex flex-col items-center text-center">
+            <h2 class="text-3xl font-medium text-gray-500 mt-5">How to become Borrower</h2>
+            <div class="h-2 bg-green-200 w-72 mx-auto rounded-md mt-2"></div>
+        </div>
+        <div class="max-w-screen-xl mx-auto flex flex-col items-center text-center">
+            <h1 class="font-bold text-black text-4xl my-6 text-center">
+                Real Estate Developer
+            </h1>
+            <!--Step 1-->
+            <div class="flex items-center gap-2 mt-10">
+                <div>
+                    <img src="images/1.png" alt="Investing First Step Image" class="w-32 h-auto">
+                </div>
+                <div class="max-w-md">
+                    <h2 class="text-lg text-black font-bold">Registration</h2>
+                    <p class="text-gray-500 text-md leading-relaxed mt-2">
+                        Register as an entrepreneur to ensure the standards of your project in
+                        accordance with the financing terms of the Mudarabah platform
+                    </p>
+                </div>
+            </div>
+            <!--Arrow Div-->
+            <div class="mt-2 flex justify-center">
+                <img src="images/arrow.png" alt="First Step Arrow" class="w-2/3">
+            </div>
+            <!--Step 2-->
+            <div class="flex items-center gap-2 mt-10">
+                <div class="max-w-md">
+                    <h2 class="text-lg text-black font-bold">
+                        Apply for financing
+                    </h2>
+                    <p class="text-gray-500 text-md leading-relaxed mt-2">
+                        Submit a financing application, fill out the requirements and attach supporting documents via
+                        the platform
+                    </p>
+                </div>
+                <div>
+                    <img src="images/2.png" alt="Investing First Step Image" class="w-32 h-auto">
+                </div>
+            </div>
+            <!--Arrow Div-->
+            <div class="mt-2 flex justify-center">
+                <img src="images/arrow.png" alt="First Step Arrow" class="w-2/3">
+            </div>
+            <!--Step 3-->
+            <div class="flex items-center gap-2 mt-10">
+                <div>
+                    <img src="images/3.png" alt="Investing First Step Image" class="w-32 h-auto">
+                </div>
+                <div class="max-w-md">
+                    <h2 class="text-lg text-black font-bold">Review the application and evaluate the investment
+                        opportunity.</h2>
+                    <p class="text-gray-500 text-md leading-relaxed mt-2">
+                        Communicate with the real estate developer by the platform management to ensure the feasibility
+                        of the investment opportunity and the required financing amount.
+                    </p>
+                </div>
+            </div>
+            <!--Arrow Div-->
+            <div class="mt-2 flex justify-center">
+                <img src="images/arrow.png" alt="First Step Arrow" class="w-2/3">
+            </div>
+            <!--Step 4-->
+            <div class="flex items-center gap-2 mt-10">
+                <div class="max-w-md">
+                    <h2 class="text-lg text-black font-bold">Post the opportunity on the platform and raise funds.</h2>
+                    <p class="text-gray-500 text-md leading-relaxed mt-2">
+                        The opportunity will be ready and will be displayed on the platform for investors to purchase
+                        the Sukuk.
+                    </p>
+                </div>
+                <div>
+                    <img src="images/4.png" alt="Investing First Step Image" class="w-32 h-auto">
+                </div>
+            </div>
+            <!--Arrow Div-->
+            <div class="mt-2 flex justify-center">
+                <img src="images/arrow.png" alt="First Step Arrow" class="w-2/3">
+            </div>
+            <!--Step 5-->
+            <div class="flex items-center gap-2 mt-10">
+                <div>
+                    <img src="images/5.png" alt="Investing First Step Image" class="w-32 h-auto">
+                </div>
+                <div class="max-w-md">
+                    <h2 class="text-lg text-black font-bold">
+                        Own the real estate and start the development project
+                    </h2>
+                    <p class="text-gray-500 text-md leading-relaxed mt-2">
+                        The developer owns the real estate asset and begins work on the development project.
+                    </p>
+                </div>
+            </div>
+            <!--Arrow Div-->
+            <div class="mt-2 flex justify-center">
+                <img src="images/arrow.png" alt="First Step Arrow" class="w-2/3">
+            </div>
+            <!--Step 6-->
+            <div class="flex items-center gap-2 mt-10">
+                <div class="max-w-md">
+                    <h2 class="text-lg text-black font-bold">Distribution of proceeds and extinguishment of sukuk</h2>
+                    <p class="text-gray-500 text-md leading-relaxed mt-2">
+                        The returns are distributed to investors on the specified maturity date in accordance with the
+                        approved prospectus and the amortization of the Sukuk.
+                    </p>
+                </div>
+                <div>
+                    <img src="images/6.png" alt="Investing First Step Image" class="w-32 h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Registration Ends-->
+
+    <!-- Footer Section Starts-->
+    <footer
+        class="w-full bg-gray-900 text-white py-14 flex flex-col md:flex-row items-center justify-between md:px-32 md:space-y-6">
+        <!-- Left Section -->
+        <div class="mb-4 md:mb-0 mt-10 flex flex-col items-center md:items-start">
+            <img src="images/Qarar.jpg" alt="QARAR Logo" class="mb-4 h-10 md:h-12 w-auto">
+            <p class="text-center md:text-left">All rights reserved © 2024 for Qarar Fintech Company.</p>
+            <ul class="mt-2 space-y-2 text-center md:text-left">
+                <li><a href="#" class="text-green-400 hover:text-green-300">Terms and Conditions</a></li>
+                <li><a href="#" class="text-green-400 hover:text-green-300">Disclosure and transparency policy</a></li>
+                <li><a href="#" class="text-green-400 hover:text-green-300">Download App</a></li>
+            </ul>
+
+            <!-- Contact Information -->
+            <div class="mt-10">
+                <h2 class="text-lg font-bold text-center md:text-left">Contact Us</h2>
+                <p class="flex items-center mt-2 justify-center md:justify-start">
+                    <i class="fas fa-phone mr-2"></i>
+                    <a href="tel:920014252" class="text-green-400 hover:text-green-300">920014252</a>
+                </p>
+                <p class="flex items-center justify-center md:justify-start">
+                    <i class="fas fa-envelope mr-2"></i>
+                    <a href="mailto:info@qararfintech.com"
+                        class="text-green-400 hover:text-green-300">info@qararfintech.com</a>
+                </p>
+                <p class="flex items-center justify-center md:justify-start">
+                    <i class="fas fa-map-marker-alt mr-2 text-lg"></i>
+                    <span class="text-center text-sm">6601 Al-Takhasosi Street, Muhammadiyah District, 12361-4003
+                        Riyadh</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="text-sm flex flex-col items-center mt-20 md:ml-12 w-full md:w-1/2">
+            <img src="images/Foooter-Desc.png" alt="Capital Market Authority" class="h-8 mb-4">
+            <p class="text-center mb-4" id="short-text">
+                Based on the Capital Market Law issued by Royal Decree No. (M/30) dated 02/06/1424 AH and its
+                implementing regulations and the instructions for the financial technology experiment permit issued by
+                the Board of the Capital Market Authority, the Capital Market Authority announces that the Qarar
+                Platform Company for Financial Technology has fulfilled the requirements to start practicing work with
+                the permit granted to it...
+                <a href="#" class="text-green-400 hover:text-green-300" onclick="showFullText(event)">Read more</a>
+            </p>
+            <p class="text-center mb-4 hidden" id="full-text">
+                Based on the Capital Market Law issued by Royal Decree No. (M/30) dated 02/06/1424 AH and its
+                implementing regulations and the instructions for the financial technology experiment permit issued by
+                the Board of the Capital Market Authority, the Capital Market Authority announces that the Qarar
+                Platform Company for Financial Technology has fulfilled the requirements to start practicing work with
+                the permit granted to it pursuant to the decision of the Board of the Authority dated 01/18/2023 AD to
+                establish a platform for offering and investing in debt instruments.
+                <a href="#" class="text-green-400 hover:text-green-300" onclick="hideFullText(event)">Show less</a>
+            </p>
+        </div>
+    </footer>
+    <!--Footer Section Ends-->
+
+</body>
+
+</html>

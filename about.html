@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <!-- Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+    <!--Navbar Starts-->
+    <nav class="bg-white border-gray-200 dark:bg-gray-700">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a id="about-link" href="index.html" class="nav-link"><img class="h-12" src="images/Qarar.jpg" alt="Logo" />
+            </a>
+            <button class="md:hidden text-gray-500 hover:text-green-700 focus:outline-none" onclick="toggleMenu()"
+                aria-label="Toggle navigation">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-2 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-500 md:dark:bg-gray-600 dark:border-gray-700">
+                    <li>
+                        <a href="index.html" class="block py-2 px-3 text-black hover:text-green-700 hover:underline"
+                            aria-current="page">Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="block py-2 px-3 text-black hover:text-green-700 hover:underline"
+                            aria-current="page">About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="howItWorks.html" class="block py-2 px-3 text-black hover:text-green-700 hover:underline"
+                            aria-current="page">How It Works
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-yellow-500 hover:text-green-700 hover:underline"
+                            aria-current="page">Investment Offers
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-black hover:text-green-700 hover:underline"
+                            aria-current="page">FAQs
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-black hover:text-green-700 hover:underline"
+                            aria-current="page">Shariaa
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-black hover:text-green-700 hover:underline"
+                            aria-current="page">Contact Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-green-700 hover:underline" aria-current="page">Sign In
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar Ends-->
+
+    <!-- About Us Section's Description Starts -->
+    <section class="bg-white p-8">
+        <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row items-start justify-between">
+            <!-- Image -->
+            <div class="md:w-1/2 mb-6 md:mb-0">
+                <img src="images/qararbg2.png" alt="About Us Image" class="w-full h-auto">
+            </div>
+            <!-- Text Content -->
+            <div class="items-center justify-center md:w-1/2 md:pl-8 text-center md:text-left">
+                <h2 class="text-3xl font-medium text-gray-500">About Us</h2>
+                <div class="h-2 bg-green-200 w-32 mx-auto md:mx-0 rounded-md"></div>
+                <h1 class="text-4xl font-bold text-gray-800 mt-4">Brief Description</h1>
+                <p class="text-gray-500 text-lg leading-relaxed mt-4">
+                    Qarar Financial Company aims to be the link between land owners, real estate developers, and
+                    investors in the field of real estate development, by financing real estate developers’ projects by
+                    directing financing to purchase the project asset (land) and enabling investors to invest in it
+                    using financial technology solutions in legitimate and safe ways.
+                    <br><br>
+                    This is done by offering real estate investment opportunities on the Qarar platform and collecting
+                    funds from investors through financial technology solutions.
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <!-- About Us Section's Description Ends -->
+
+
+    <!-- Our Services Starts -->
+    <section class="bg-white p-8">
+        <div class="max-w-screen-xl mx-auto flex flex-col items-center text-center">
+            <h2 class="text-3xl font-medium text-gray-500 mt-5">Our Services</h2>
+            <div class="h-2 bg-green-200 w-40 mx-auto rounded-md mt-2"></div>
+            <h1 class="text-4xl font-bold text-gray-800 mt-4">What do we offer</h1>
+        </div>
+        <div class="flex flex-wrap justify-center mt-14 gap-5">
+            <!-- Card 1 -->
+            <div
+                class="max-w-sm bg-white border-2 border-green-500 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-lg dark:bg-green-700 dark:border-green-600">
+                <a href="#">
+                    <img class="rounded-t-lg object-cover h-56 w-full" src="images/card-image-1.jpg"
+                        alt="Card Image 1" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Financing Case
+                            Study</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">1- All applications are subject to a
+                        credit check for initial acceptance or rejection.</p>
+                    <a href="#"
+                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 transition duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ml-2" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div
+                class="max-w-sm bg-white border-2 border-green-500 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-lg dark:bg-green-700 dark:border-green-600">
+                <a href="#">
+                    <img class="rounded-t-lg object-cover h-56 w-full" src="images/card-image-2.jpg"
+                        alt="Card Image 2" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Sukuk Issue
+                        </h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">1- A Special Purpose Entity (SPE) is
+                        established for each borrower to ensure that appropriate governance is in place to manage the
+                        funded projects, and to ensure separately audited financial statements.</p>
+                    <a href="#"
+                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 transition duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ml-2" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div
+                class="max-w-sm bg-white border-2 border-green-500 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-lg dark:bg-green-700 dark:border-green-600">
+                <a href="#">
+                    <img class="rounded-t-lg object-cover h-56 w-full" src="images/card-image-3.jpg"
+                        alt="Card Image 3" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">W-UP and
+                            completion of the project</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">1- Our team closely monitors funded
+                        projects to ensure quality delivery and to manage any hiccups. We also have agreements to
+                        provide specialized experts in each activity to ensure that projects adhere to the correct
+                        standards.</p>
+                    <a href="#"
+                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 transition duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ml-2" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Services Ends -->
+
+    <!-- Why Qarar Section Starts -->
+    <section class="bg-white p-8">
+        <div class="max-w-screen-xl mx-auto flex flex-col items-center text-center">
+            <h2 class="text-3xl font-medium text-gray-500 mt-5">Why Qarar?</h2>
+            <div class="h-2 bg-green-200 w-40 mx-auto rounded-md mt-2"></div>
+        </div>
+        <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-between">
+            <!-- Left Content -->
+            <div class="md:w-2/3 md:mb-0 mt-6 text-center">
+                <p class="text-gray-500 text-lg leading-relaxed mt-5">
+                    The financing of collective ownership is a major supporter of Vision 2030, as it contributes to the
+                    creation of new channels for financing and investment targeting various sectors, and contributes to
+                    achieving economic depth, adds value to GDP, and encourages the creation of economic entities and
+                    new job opportunities and the achievement of several economic and social benefits by supporting the
+                    financing of various Projects. In the financial decision platform, we enable individuals and
+                    companies to invest in real estate development with amounts starting from 1000 riyals, and we enable
+                    real
+                    estate developers to obtain appropriate financing through financing solutions compatible with
+                    Islamic law
+                    to develop their business and transfer them to a higher stage of service and competition.
+                </p>
+
+                <!-- Feature Cards -->
+                <div class="flex flex-wrap justify-center gap-4 mt-5">
+                    <!-- Feature 1 -->
+                    <div
+                        class="feature-card flex flex-col items-center p-4 bg-white shadow-lg rounded-lg w-56 transition-transform transform hover:scale-105">
+                        <img src="images/Feature-1.jpg" alt="Feature 1" class="mb-4 w-16 h-16 object-cover" />
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Empowering Individuals</h3>
+                        <p class="text-gray-600 text-center">Enabling individuals to invest in real estate development
+                            with ease and confidence.</p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div
+                        class="feature-card flex flex-col items-center p-4 bg-white shadow-lg rounded-lg w-56 transition-transform transform hover:scale-105">
+                        <img src="images/Feature-2.jpg" alt="Feature 2" class="mb-4 w-16 h-16 object-cover" />
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Real Estate Financing</h3>
+                        <p class="text-gray-600 text-center">Assisting developers in securing the financing they need
+                            for their projects.</p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div
+                        class="feature-card flex flex-col items-center p-4 bg-white shadow-lg rounded-lg w-56 transition-transform transform hover:scale-105">
+                        <img src="images/Feature-3.jpg" alt="Feature 3" class="mb-4 w-16 h-16 object-cover" />
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Sharia Compliance</h3>
+                        <p class="text-gray-600 text-center">Providing services that are fully compliant with Islamic
+                            Sharia laws.</p>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div
+                        class="feature-card flex flex-col items-center p-4 bg-white shadow-lg rounded-lg w-56 transition-transform transform hover:scale-105">
+                        <img src="images/Feature-4.jpg" alt="Feature 4" class="mb-4 w-16 h-16 object-cover" />
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Innovative Business Model</h3>
+                        <p class="text-gray-600 text-center">We offer an innovative, forward-thinking approach to real
+                            estate investment.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Image -->
+            <div class="md:w-1/3 flex-row items-start mt-8 md:mt-0"> <!-- Added mt-6 here -->
+                <img src="images/service.png" alt="Why Qarar Image" class="w-full object-cover rounded-lg" />
+            </div>
+        </div>
+    </section>
+    <!-- Why Qarar Section Ends -->
+
+
+    <!-- Shariyah Accreditation Section Starts -->
+    <section class="bg-gray-200 p-8 my-20 mx-4 md:mx-8">
+        <div class="flex flex-col md:flex-row md:items-center justify-between max-w-screen-lg mx-auto">
+            <!-- Image -->
+            <div class="md:w-1/2 mb-6 md:mb-0">
+                <img src="images/Sharia.png" alt="Shariyah Image" class="w-full h-auto max-h-96 object-contain">
+            </div>
+            <!-- Text Content -->
+            <div class="md:w-1/2 text-center md:text-left">
+                <h2 class="text-4xl font-bold text-gray-800 mb-5">Sharia Accreditation Certificate</h2>
+                <p class="text-gray-500 text-lg leading-relaxed">
+                    The Sharia Review House is licensed by the Central Bank of Bahrain to provide Sharia auditing,
+                    structuring, review, accreditation (Fatwa), and Sharia supervision services. The House is connected
+                    to an elite group of over 36 Sharia consultants distributed across various countries, making it a
+                    distinguished Sharia advisory body with international reach.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Shariyah Accreditation Section Ends -->
+
+
+    <!-- Footer Section Starts-->
+    <footer
+        class="w-full bg-gray-900 text-white py-14 flex flex-col md:flex-row items-center justify-between md:px-32 md:space-y-4">
+        <!-- Left Section -->
+        <div class="mb-4 md:mb-0 mt-10 flex flex-col items-center md:items-start">
+            <img src="images/Qarar.jpg" alt="QARAR Logo" class="mb-4 h-10 md:h-12 w-auto">
+            <p class="text-center md:text-left">All rights reserved © 2024 for Qarar Fintech Company.</p>
+            <ul class="mt-2 space-y-2 text-center md:text-left">
+                <li><a href="#" class="text-green-400 hover:text-green-300">Terms and Conditions</a></li>
+                <li><a href="#" class="text-green-400 hover:text-green-300">Disclosure and transparency policy</a></li>
+                <li><a href="#" class="text-green-400 hover:text-green-300">Download App</a></li>
+            </ul>
+
+            <!-- Contact Information -->
+            <div class="mt-10">
+                <h2 class="text-lg font-bold text-center md:text-left">Contact Us</h2>
+                <p class="flex items-center mt-2 justify-center md:justify-start">
+                    <i class="fas fa-phone mr-2"></i>
+                    <a href="tel:920014252" class="text-green-400 hover:text-green-300">920014252</a>
+                </p>
+                <p class="flex items-center justify-center md:justify-start">
+                    <i class="fas fa-envelope mr-2"></i>
+                    <a href="mailto:info@qararfintech.com"
+                        class="text-green-400 hover:text-green-300">info@qararfintech.com</a>
+                </p>
+                <p class="flex items-center justify-center md:justify-start">
+                    <i class="fas fa-map-marker-alt mr-2 text-lg"></i>
+                    <span class="text-center text-sm">6601 Al-Takhasosi Street, Muhammadiyah District, 12361-4003
+                        Riyadh</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="text-sm flex flex-col items-center mt-20 md:ml-12 w-full md:w-1/2">
+            <img src="images/Foooter-Desc.png" alt="Capital Market Authority" class="h-8 mb-4">
+            <p class="text-center mb-4" id="short-text">
+                Based on the Capital Market Law issued by Royal Decree No. (M/30) dated 02/06/1424 AH and its
+                implementing regulations and the instructions for the financial technology experiment permit issued by
+                the Board of the Capital Market Authority, the Capital Market Authority announces that the Qarar
+                Platform Company for Financial Technology has fulfilled the requirements to start practicing work with
+                the permit granted to it...
+                <a href="#" class="text-green-400 hover:text-green-300" onclick="showFullText(event)">Read more</a>
+            </p>
+            <p class="text-center mb-4 hidden" id="full-text">
+                Based on the Capital Market Law issued by Royal Decree No. (M/30) dated 02/06/1424 AH and its
+                implementing regulations and the instructions for the financial technology experiment permit issued by
+                the Board of the Capital Market Authority, the Capital Market Authority announces that the Qarar
+                Platform Company for Financial Technology has fulfilled the requirements to start practicing work with
+                the permit granted to it pursuant to the decision of the Board of the Authority dated 01/18/2023 AD to
+                establish a platform for offering and investing in debt instruments.
+                <a href="#" class="text-green-400 hover:text-green-300" onclick="hideFullText(event)">Show less</a>
+            </p>
+        </div>
+    </footer>
+    <!--Footer Section Ends-->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
